@@ -7,7 +7,7 @@ This script connects to Exchange Online and iterates through all mailboxes.
 For each mailbox, it adds a new alias in the format user@firma.pl if it does not already exist.
 
 .EXAMPLE
-.\Add-MailAlias.ps1
+.\exo.Add-MailAlias.ps1
 The script connects to Exchange Online and adds aliases to all mailboxes.
 
 .NOTES
@@ -19,8 +19,8 @@ Date: 2025-07-15
 # Import Exchange Online PowerShell Module
 Import-Module ExchangeOnlineManagement
 
-# Connect to Exchange Online (insert the correct UPN when running)
-Connect-ExchangeOnline -UserPrincipalName "user@domain.com"
+# Connect to Exchange Online
+Connect-ExchangeOnline
 
 # Retrieve all mailboxes
 $Mailboxes = Get-Mailbox -ResultSize Unlimited
