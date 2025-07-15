@@ -7,6 +7,11 @@ This script connects to Exchange Online and updates a dynamic distribution group
 
 .EXAMPLE
 .\exo.Update-AllUsers-DDG.ps1
+
+.NOTES
+Author: Bartłomiej Tybura
+Version: 1.0
+Date: 2025-07-15
 #>
 
 Connect-ExchangeOnline
