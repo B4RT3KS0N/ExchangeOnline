@@ -18,8 +18,8 @@ The email address of the resource mailbox to configure.
 
 .NOTES
 Author: Bartłomiej Tybura
+Version: 1.0
 Date: 2025-07-15
-Requirements: Exchange Online permissions and ExchangeOnlineManagement module.
 #>
 
 param (
