@@ -17,7 +17,7 @@ The user who will receive Full Access permissions to the same mailboxes.
 .NOTES
 Author: Bartłomiej Tybura
 Version: 1.0
-Date: 
+Date: 2025-07-15
 #>
 
 param (
