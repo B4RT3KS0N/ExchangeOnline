@@ -14,7 +14,7 @@ Adds an alias with the 'domain.com' domain to all distribution groups.
 .NOTES
 Author: Bartłomiej Tybura
 Version: 1.0
-Date: 
+Date: 2025-07-15
 
 #>
 
