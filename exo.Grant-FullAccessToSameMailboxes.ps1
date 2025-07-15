@@ -12,7 +12,7 @@ The user whose Full Access permissions will be copied.
 The user who will receive Full Access permissions to the same mailboxes.
 
 .EXAMPLE
-.\Grant-FullAccessToSameMailboxes.ps1 -SourceUser "user1@domain.com" -TargetUser "user2@domain.com"
+.\exo.Grant-FullAccessToSameMailboxes.ps1 -SourceUser "user1@domain.com" -TargetUser "user2@domain.com"
 
 .NOTES
 Author: Bartłomiej Tybura
