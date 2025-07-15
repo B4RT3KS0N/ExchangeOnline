@@ -14,7 +14,7 @@ The script:
 The email address of the resource mailbox to configure.
 
 .EXAMPLE
-.\Set-ResourceCalendarProcessing.ps1 -ResourceMailbox "resource@example.com"
+.\exo.Set-ResourceCalendarProcessing.ps1 -ResourceMailbox "resource@example.com"
 
 .NOTES
 Author: Bartłomiej Tybura
